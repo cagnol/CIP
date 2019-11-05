@@ -13,8 +13,8 @@ Y = np.linspace(-5, 5, N)
 X, Y = np.meshgrid(X, Y)
 
 # Mean vector and covariance matrix
-mu = np.array([0., 0.])
-Sigma = np.array([[ 3 , 1], [1,  3]])
+mu = np.array([0, 0])
+Sigma = np.array([[1 , 0], [0,  1]])
 
 # Pack X and Y into a single 3-dimensional array
 pos = np.empty(X.shape + (2,))
